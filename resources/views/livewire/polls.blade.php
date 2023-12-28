@@ -1,6 +1,6 @@
 <div>
     @forelse ($polls as $poll)
-        <div class="mb-4">
+        <div class="mb-4 box-border">
             <h3 class="mb-4 text-xl">{{ $poll->title }}</h3>
             @foreach ($poll->options as $option)
                 <div class="mb-4">
